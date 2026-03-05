@@ -1,0 +1,416 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <link rel="stylesheet" href="framework/fontawesome/css/all.min.css"/>
+    <link rel="stylesheet" href="CSS/portfolio.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+</head>
+<body>
+    <div class="main-wrapper">
+        <div id="ao">
+        
+            <div class="navbar">
+                <a href="#display"class="fotsy">Accueil</a>
+            
+                <a href="#A_propos"class="fotsy">A propos de moi</a>
+                <a href="#competences"class="fotsy">competences</a>
+                <a href="#projets"class="fotsy">projets</a>
+                <a href="#services"class="fotsy">Services</a>
+                <a href="#contact"class="fotsy">contact</a>
+        </div>
+
+        <div id="mena" style="background-color: #0b1120; color: white; padding: 80px 20px; font-family: sans-serif;">
+            <section id="display" class="hero">
+                <div class="code-bg code-bg-1">
+                    &lt;main class="page-container"&gt;
+                    &lt;article id="about-section"&gt;
+                        &lt;h2 class="section-title"&gt;
+                        &lt;/h2&gt;
+                    &lt;/article&gt;
+                    &lt;/main&gt;
+                    &lt;!DOCTYPE html&gt;
+                    &lt;html lang="en"&gt;
+                    </div>
+                    
+                    <div class="code-bg code-bg-2">
+                    if (status === 'loading') {
+                        renderSkeleton();
+                    }
+                    const [data, setData] = useState([]);
+                    useEffect(() => {
+                        api.get('/projects').then(res => setData(res));
+                    }, []);
+                    </div>
+                    
+                    <div class="code-bg code-bg-3">
+                    &lt;script setup&gt;
+                    import { ref, onMounted } from 'vue';
+                    const projects = ref([]);
+                    onMounted(() => {
+                        console.log("Portfolio Ready");
+                    });
+                    &lt;/script&gt;
+                    </div>
+                    
+                    <div class="code-bg code-bg-4">
+                    &lt;div class="grid grid-cols-3"&gt;
+                        &lt;template v-for="i in 12"&gt;
+                            &lt;Card :key="i" /&gt;
+                        &lt;/template&gt;
+                    &lt;/div&gt;
+                    </div>
+                    
+                    <div class="code-bg code-bg-5">
+                    namespace App\Http\Controllers;
+                    class ProjectController extends Controller {
+                        public function show($id) {
+                            return Project::findOrFail($id);
+                        }
+                    }
+                    </div>
+                    
+                    <div class="code-bg code-bg-6">
+                    .hero-title {
+                        background: linear-gradient();
+                        font-size: 4rem;
+                        animation: fadeIn 1s;
+                    }
+                    $ npm run build
+                </div>
+                <div class="hero-text">
+                    <h1 class="hero-title">
+                        <span class="gradient-text">Développeuse Fullstack</span>
+                    </h1>
+            
+                    <p class="hero-description">
+                        Je suis Sarobidy dévellopeuse web passionnée par l'écosystème Laravel & Vue.js.
+                    </p>
+            
+                    <div class="hero-button">
+                        <a href="#projets" class="btn-projets">
+                            Découvrir mes projets
+                        </a>
+                    </div>
+                </div>
+            
+                <div class="hero-image">
+                    <div class="image-wrapper">
+            
+                        <div class="image-glow"></div>
+            
+                        <img src="Image/sariko.jpg" class="profile-image">
+            
+                    </div>
+                </div>
+            
+            </section>
+            
+        </div>
+        <div class="separator-line"></div>
+        <section id="A_propos" class="about-section">
+
+            <h2 class="about-title">
+                À PROPOS DE MOI
+            </h2>
+
+            <div class="about-card">
+                <p class="about-text">
+                Développeuse Fullstack passionnée par la création de solutions métiers concrètes, je me spécialise dans l'écosystème Laravel et Vue.js.
+
+                Mon approche est orientée vers l'efficacité : j'utilise Inertia.js pour bâtir des applications monolithiques modernes avec la réactivité d'une SPA (Single Page Application). Qu'il s'agisse de modéliser des bases de données complexes ou de concevoir des interfaces mobiles fluides, je m'attache à transformer des besoins logistiques en outils numériques performants.
+
+                Autonome et rigoureuse, j'aime relever des défis techniques, comme l'optimisation des flux de commandes ou la gestion de stocks en temps réel. Je suis actuellement à la recherche d'un stage où je pourrai apporter ma maîtrise technique et ma capacité à livrer des produits finis et fonctionnels.
+                </p>
+            </div>
+            <div class="separator-line"></div>
+        </section>
+        <section id="competences" class="competences-section">
+
+            <h2 class="competences-title">
+                COMPETENCES
+            </h2>
+
+            <p class="competences-description">
+                Mon écosystème de développement : une synergie de technologies modernes pour concevoir des expériences numériques fluides et robustes.
+            </p>
+
+            <div class="competences-icons">
+
+                <div class="competence-icon" title="Laravel 11">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/laravel/laravel-original.svg" width="60" height="60">
+                </div>
+
+                <div class="competence-icon" title="PHP 8">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/php/php-original.svg" width="60" height="60">
+                </div>
+
+                <div class="competence-icon" title="Vue.js 3">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/vuejs/vuejs-original.svg" width="60" height="60">
+                </div>
+
+                <div class="competence-icon" title="Tailwind CSS">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/tailwindcss/tailwindcss-original.svg" width="60" height="60">
+                </div>
+
+                <div class="competence-icon" title="MySQL">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/mysql/mysql-original.svg" width="60" height="60">
+                </div>
+
+                <div class="competence-icon" title="GitHub">
+                    <img class="github-icon" src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/github/github-original.svg" width="60" height="60">
+                </div>
+
+                <div class="competence-icon" title="Docker">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/docker/docker-original.svg" width="60" height="60">
+                </div>
+
+                <div class="competence-icon" title="Figma">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/figma/figma-original.svg" width="60" height="60">
+                </div>
+                <div class="competence-icon" title="React Native">
+                    <img src="https://cdn.jsdelivr.net/gh/devicons/devicon/icons/react/react-original.svg" width="60" height="60">
+                </div>
+
+            </div>
+
+
+            <div class="competences-cards">
+
+                <div class="competence-card">
+                    <h4 class="backend">Backend</h4>
+                    <p>Laravel 11, PHP 8, Architecture MVC, API REST</p>
+                </div>
+
+                <div class="competence-card">
+                    <h4 class="frontend">Frontend</h4>
+                    <p>Vue.js 3, Inertia.js (SPA), Tailwind CSS</p>
+                </div>
+
+                <div class="competence-card">
+                    <h4 class="database">Base de données</h4>
+                    <p>Conception MCD/MLD, MySQL, Optimisation</p>
+                </div>
+
+                <div class="competence-card">
+                    <h4 class="tools">Outils</h4>
+                    <p>Git/GitHub, Docker, Suite Adobe</p>
+                </div>
+                <div class="competence-card">
+                    <h4 class="mobile">Mobile</h4>
+                    <p>React Native</p>
+                </div>
+
+            </div>
+
+        </section>
+        <div style="height: 1px; width: 100%; max-width: 1000px; margin: 40px auto; background: linear-gradient(to right, transparent, rgba(255,255,255,0.1), transparent);"></div>
+        <section id="projets" class="projects-section">
+
+            <h2 class="projects-title">Mes Réalisations</h2>
+
+            <div class="projects-container">
+
+                <!-- PROJET 1 -->
+                <div class="project-card">
+
+                    <div class="project-left">
+                        <div class="project-logo-box">
+                            <img src="Image/logo.JPG" alt="Logo" class="project-logo">
+
+                            <h3 class="project-company">
+                                TOP FANORENANA Quincaillerie
+                            </h3>
+
+                            <ul class="project-features">
+                                <li>✅ Dashboard administrateur complet</li>
+                                <li>✅ Panier dynamique avec Inertia.js</li>
+                                <li>✅ Base de données Web et Mobile</li>
+                                <li>✅ API REST sécurisée avec Laravel Sanctum</li>
+                                <li>✅ Gestion de stock en temps réel</li>
+                                <li>✅ Gestion automatique des stocks</li>
+                            </ul>
+                        </div>
+                    </div>
+
+                    <div class="project-right">
+
+                        <div class="project-tags">
+                            <span class="tag-laravel">Laravel 11</span>
+                            <span class="tag-vue">Vue.js 3</span>
+                            <span class="tag-reactnative">React Native</span>
+                        </div>
+
+                        <h3 class="project-title">
+                            Système de Gestion de Magasin
+                        </h3>
+
+                        <p class="project-description">
+                            Conception d'un écosystème numérique dédié à la quincaillerie. 
+                            Le système offre un dashboard client pour le suivi des commandes 
+                            et un espace gestionnaire pour piloter les stocks en temps réel. 
+                            Une seule base de données MySQL alimente le site web et 
+                            l'application mobile d'entrepôt.
+                        </p>
+
+                    </div>
+
+                </div>
+
+
+                <!-- PROJET 2 -->
+                <div class="project-card">
+
+                    <div class="project-left">
+
+                        <div class="project-logo-box">
+
+                            <img src="Image/vitrine2.png" alt="Logo SGRH" class="project-logo">
+
+                            <h3 class="project-company">
+                                Système de Gestion des Ressources Humaines
+                            </h3>
+
+                            <ul class="project-features">
+                                <li>✅ Gestion des employés</li>
+                                <li>✅ Gestion des congés</li>
+                                <li>✅ Gestion des salaires</li>
+                                <li>✅ Gestion des pointages</li>
+                                <li>✅ Tableau de bord administratif</li>
+                            </ul>
+
+                        </div>
+
+                    </div>
+
+
+                    <div class="project-right">
+
+                        <div class="project-tags">
+                            <span class="tag-laravel">Laravel</span>
+                            <span class="tag-php">PHP</span>
+                        </div>
+
+                        <h3 class="project-title">
+                            Système de Gestion des Ressources Humaines
+                        </h3>
+
+                        <p class="project-description">
+                            Développement d'une application web de gestion RH permettant 
+                            de centraliser les informations des employés, gérer les congés, 
+                            les salaires et les présences. Ce système vise à automatiser 
+                            les processus administratifs et améliorer le suivi du personnel.
+                        </p>
+
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <div style="height: 1px; width: 100%; max-width: 1000px; margin: 40px auto; background: linear-gradient(to right, transparent, rgba(255,255,255,0.1), transparent);"></div>
+        <section id="services" class="services-section">
+
+            <h2 class="services-title">Mes Services</h2>
+
+            <div class="services-container">
+
+                <div class="services-line"></div>
+
+                <div class="services-grid">
+
+                    <!-- Service 1 -->
+                    <div class="service-left">
+                        <div class="service-card right">
+                            <span class="service-icon">💻</span>
+                            <h3>Fullstack</h3>
+                            <p>Apps Laravel & Vue.js clés en main.</p>
+                        </div>
+                        <div class="service-connector right"></div>
+                    </div>
+
+                    <div></div>
+
+                    <div></div>
+
+                    <!-- Service 2 -->
+                    <div class="service-right">
+                        <div class="service-card left">
+                            <span class="service-icon">⚙️</span>
+                            <h3>Architecture API</h3>
+                            <p>Backends Laravel robustes et sécurisés.</p>
+                        </div>
+                        <div class="service-connector left"></div>
+                    </div>
+
+                    <!-- Service 3 -->
+                    <div class="service-left service-offset">
+                        <div class="service-card right">
+                            <span class="service-icon">🚀</span>
+                            <h3>Optimisation</h3>
+                            <p>Amélioration des performances et API.</p>
+                        </div>
+                        <div class="service-connector right"></div>
+                    </div>
+
+                    <div></div>
+
+                    <div></div>
+
+                    <!-- Service 4 -->
+                    <div class="service-right service-offset">
+                        <div class="service-card left">
+                            <span class="service-icon">📱</span>
+                            <h3>Multi-plateformes</h3>
+                            <p>Web & Mobile synchronisés en temps réel.</p>
+                        </div>
+                        <div class="service-connector left"></div>
+                    </div>
+
+                </div>
+
+            </div>
+
+        </section>
+        <div style="height: 1px; width: 100%; max-width: 1000px; margin: 40px auto; background: linear-gradient(to right, transparent, rgba(255,255,255,0.1), transparent);"></div>
+        <footer id="contact" class="footer">
+            <div class="footer-container">
+                <h2 class="footer-title">Me Contacter</h2>
+                
+                <div class="contact-cards">
+                    <div class="contact-card">
+                        <i class="fa fa-whatsapp contact-icon whatsapp-icon"></i>
+                        <span class="contact-text">+261 34 74 531 62</span>
+                    </div>
+
+                    <div class="contact-card">
+                        <i class="fa fa-envelope contact-icon envelope-icon"></i>
+                        <span class="contact-text">evasoasarobidy@gmail.com</span>
+                    </div>
+
+                    <a href="" target="_blank" class="contact-card contact-linkedin">
+                        <i class="fa fa-linkedin contact-icon linkedin-icon"></i>
+                        <span class="contact-text">Sarobidy Ranivoarimala</span>
+                    </a>
+                </div>
+
+                <div class="source-code">
+                    <p class="source-text">Mon Code Source</p>
+                    <a href="" target="_blank" class="github-btn">
+                        <i class="fa fa-github github-icon"></i>
+                        <span class="github-text">GitHub : Sarobidy1215</span>
+                    </a>
+                </div>
+
+                <div class="footer-divider"></div>
+                <p class="footer-copy">&copy; 2026 Sarobidy | Développeuse Fullstack Laravel & Vue.js</p>
+            </div>
+        </footer>
+
+        </div>
+    </div>
+</body>
+
+    
+</html>
